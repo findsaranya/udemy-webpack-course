@@ -1,4 +1,6 @@
 import _ from "lodash";
+const btn = document.getElementById("btn");
+btn.addEventListener("click", changeText);
 function changeText() {
   alert("hello");
   const el = document.getElementById("title");
